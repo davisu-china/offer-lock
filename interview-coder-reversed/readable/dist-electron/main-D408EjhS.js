@@ -35669,7 +35669,7 @@ const CLIENT_SERVICE_ORIGIN =
   process.env.NODE_ENV === "development" &&
   process.env.CLIENT_SERVICE_LOCAL === "1"
     ? "http://127.0.0.1:8888"
-    : "https://mianshiguodong.top";
+    : "https://ic.jianjiange.site";
 function serviceRequest(path2, body, signal) {
   return new Promise((resolve, reject) => {
     let settled = false;
