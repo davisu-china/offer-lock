@@ -1,0 +1,61 @@
+{
+  "name": "interview-coder-v1",
+  "version": "2.1.1",
+  "main": "dist-electron/main.js",
+  "author": "Interview Coder Contributors",
+  "license": "AGPL-3.0-or-later",
+  "description": "An invisible desktop application to help you pass your technical interviews.",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@electron/notarize": "^2.3.0",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@orama/orama": "^3.1.18",
+    "@orama/plugin-data-persistence": "^3.1.18",
+    "@radix-ui/react-dialog": "^1.1.2",
+    "@radix-ui/react-label": "^2.1.0",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@radix-ui/react-toast": "^1.2.2",
+    "@supabase/supabase-js": "^2.49.4",
+    "@tanstack/react-query": "^5.64.0",
+    "@xenova/transformers": "^2.17.2",
+    "axios": "^1.7.7",
+    "bufferutil": "^4.1.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "diff": "^7.0.0",
+    "dotenv": "^16.4.7",
+    "elasticlunr": "^0.9.5",
+    "electron-log": "^5.2.4",
+    "electron-store": "^10.0.0",
+    "electron-updater": "^6.3.9",
+    "form-data": "^4.0.1",
+    "i18next": "^25.8.18",
+    "lucide-react": "^0.460.0",
+    "node-machine-id": "^1.1.12",
+    "openai": "^4.28.4",
+    "react": "^18.2.0",
+    "react-code-blocks": "^0.1.6",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^16.5.8",
+    "react-router-dom": "^6.28.1",
+    "react-syntax-highlighter": "^15.6.1",
+    "screenshot-desktop": "^1.15.0",
+    "tailwind-merge": "^2.5.5",
+    "uiohook-napi": "*",
+    "uuid": "^11.0.3",
+    "ws": "^8.20.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
